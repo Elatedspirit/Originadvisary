@@ -1,0 +1,105 @@
+.n {
+    overflow: hidden;
+    background-color:#7D1616;
+    font-family: Arial, sans-serif;
+  }
+  .n a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .n a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .p{
+    font-family: "Poetsen One";
+    font-weight: 500;
+    font-style: normal;
+  }
+  .c{
+    color: #7D1616;
+  }
+  .centered-heading {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    font-weight: bold; /* Makes the text bold */
+  color: red; /* Gives a devilish color */
+  font-family: 'Chiller', 'Creepster', cursive; /* Gothic-style fonts */
+  font-size: 48px; /* Increases the size of the font */
+  text-shadow: 2px 2px 4px #000000; /* Adds a shadow for a more eerie effect */
+  }
+  @import url('https://fonts.googleapis.com/css?family=Chiller|Creepster&display=swap');
+  .history {
+    padding: 15px;
+    background: #ffffff;
+    color: #333333;
+    text-align: justify;
+  }
+  .history h1, .history h2, .history p {
+    margin-bottom: 15px;
+  }
+  .history h1 {
+    color: #e8491d;
+  }
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+}
+.footer a {
+    color: #50b3a2;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer p {
+    margin: 0;
+    padding: 0;
+}
+.G{
+  background-color: lavender;
+}
+.f{
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+}
+.o{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+.round-img {
+  width: 50px; /* or any size you want */
+  height: 50px; /* must be the same as width to be round */
+  border-radius: 50%;
+  display: inline-block; /* Allows margin auto to work for horizontal centering */
+            margin-top: -12px; /* Adjust as needed for vertical spacing */
+            margin-left: 181px; /* Adjust as needed for vertical spacing */
+}
+.slider {
+  width: 80%;
+  margin: 20px auto;
+}
+.testimonial {
+  background: #f9f9f9;
+  padding: 20px;
+  text-align: center;
+  display: none; /* Hide all testimonials initially */
+}
+.active {
+  display: block; /* Show the active testimonial */
+}

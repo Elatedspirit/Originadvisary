@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>OriginAdversary</title>
+        <link rel="icon" type="image/x-icon" href="Assets/Images/Designer.png">
+        <link rel="stylesheet" href="Assets/CSS/AboutStyle.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+    <style>
+        /* Add CSS styles here */
+        .fixed-background {
+          /* The image used */
+          background-image: url('assets/Images/History.png');
+          /* Make image cover the whole section */
+          background-size: cover;
+          /* Make image fixed */
+          background-attachment: fixed;
+          /* Do not repeat image */
+          background-repeat: no-repeat;
+          /* Center the image */
+          background-position: center;
+          /* Set a specific height or min-height for the section */
+          height: 600px; /* or min-height: 500px; */
+        }
+      
+        /* Media query for mobile devices */
+        @media only screen and (max-width: 767px) {
+          .fixed-background {
+            /* Adjust background-size for smaller devices if needed */
+            background-size: auto;
+          }
+        }
+      </style>
+<body>
+    <div class="n p">
+        <a href="#contact">Contact</a>
+        <a href="About.HTML">About</a>
+        <a href="Index.html">Home</a>
+      </div>
+      <section>
+        <div class="fixed-background">
+          <h1 class="centered-heading">History of OriginAdversary</h1>
+        </div>
+      </section>
+      <section class="history">
+        <div class="container">
+          <h1>Our History</h1>
+          <p>
+            In the heart of the bustling city, amidst the cacophony of daily life, 
+            there emerged a visionary enterprise that would come to be known as 
+            OriginAdversary. It was born from the idea that every significant moment
+            deserved to be celebrated with grandeur and style.
+          </p>
+          <h2>The Genesis (The Early 2000s)</h2>
+          <p>
+            At the dawn of the new millennium, the event management 
+            landscape was a canvas waiting for bold strokes. OriginAdversary 
+            stepped onto the scene, a brainchild of two passionate souls who 
+            believed in the power of events to weave stories and create legacies. 
+            They started small, with intimate gatherings that captured the essence 
+            of personal storytelling through meticulous planning and execution.
+          </p>
+          <h2>The Growth (The 2010s)</h2>
+          <p>
+            As the years passed, OriginAdversary’s reputation flourished. 
+            They became synonymous with innovation, transforming ordinary 
+            venues into realms of fantasy. Their events were not just occasions 
+            but experiences that engaged every sense. The company’s name became 
+            an emblem of quality and creativity, attracting clients who sought 
+            to make their mark in the world.
+          </p>
+          <h2>The Transformation (The 2020s)</h2>
+          <p>
+            With the advent of digital technology, OriginAdversary 
+            embraced the virtual world, expanding their horizons beyond 
+            physical boundaries. They pioneered hybrid events, combining 
+            the intimacy of in-person gatherings with the reach of digital 
+            platforms. The challenges of the era, like the global pandemic, 
+            only fueled their creativity, leading to groundbreaking event solutions 
+            that set industry standards.
+          </p>
+          <h2 class="text-center">The Legacy (The Present)</h2>
+          <p>
+            Today, OriginAdversary stands at the forefront of event management, 
+            a beacon for those who dare to dream big. Their journey from a fledgling 
+            company to a trendsetter is a testament to their unwavering commitment to 
+            excellence. Each event is a chapter in their ever-expanding story, a story
+            that began with a simple idea: to celebrate life’s milestones with 
+            unparalleled splendor.
+          </p>
+        </div>
+        <h1 class="text-center">Testimonials</h1>
+        <div class="slider">
+          <div class="testimonial active">
+            <p>"OriginAdversary made our event magical! Their attention to detail was impeccable."</p>
+            <h3>- Alex Smith</h3>
+          </div>
+          <div class="testimonial">
+            <p>"The team at OriginAdversary transformed our ideas into a stunning reality."</p>
+            <h3>- Jamie Doe</h3>
+          </div>
+          <!-- Add more testimonials as needed -->
+        </div>
+      </section>
+      <section class="container-fluid G">
+        <div class=" container">
+         <div class="row">
+          <div class="col-lg-4 mt-lg-4">
+            <p class="f">Usefull Links</p>
+            <ul class="o list-unstyled">
+              <li>Home</li>
+              <li>About</li>
+              <li>Services</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+          <div class="col-lg-4 mt-lg-4">
+            <p class="f">Important Links</p>
+            <ul class="o list-unstyled">
+              <li>Home</li>
+              <li>History</li>
+              <li>contact</li>
+            </ul>
+          </div>
+          <div class="col-lg-4 mt-lg-4">
+            <p class="f">OriginAdversary</p>
+            <img src="Assets/Images/Designer.png" class="round-img" alt="">
+          </div>
+         </div>
+        </div>
+      </section>
+      <div class="footer">
+        <p>&copy; 2024 OriginAdversary. All rights reserved.</p>
+        <p>
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Terms of Service</a> |
+            <a href="#">Contact Us</a>
+        </p>
+    </div>
+</body>
+<script>
+  let currentTestimonialIndex = 0;
+  const testimonials = document.querySelectorAll('.testimonial');
+  const nextTestimonial = () => {
+    testimonials[currentTestimonialIndex].classList.remove('active');
+    currentTestimonialIndex = (currentTestimonialIndex + 1) % testimonials.length;
+    testimonials[currentTestimonialIndex].classList.add('active');
+  };
+  setInterval(nextTestimonial, 3000); // Change testimonials every 3 seconds
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>

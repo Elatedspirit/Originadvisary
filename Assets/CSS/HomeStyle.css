@@ -1,0 +1,148 @@
+.n {
+    overflow: hidden;
+    background-color:#7D1616;
+    font-family: Arial, sans-serif;
+  }
+  .n a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .n a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  .p{
+    font-family: "Poetsen One";
+    font-weight: 500;
+    font-style: normal;
+  }
+  .c{
+    color: #7D1616;
+  }
+    /* Add CSS styles here */
+    .service-card {
+        width: auto;
+        height: auto;
+        margin: 20px;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+      }
+    
+      .service-card:hover {
+        transform: scale(1.05);
+      }
+    
+      .service-card img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease;
+      }
+    
+      .service-card:hover img {
+        transform: scale(1.1);
+      }
+    
+      .service-card-content {
+        padding: 20px;
+        text-align: center;
+      }
+    .b{
+        background-color:lightblue;
+    }
+    .history {
+        padding: 15px;
+        background: #ffffff;
+        border-left: 4px solid #e8491d;
+        margin: 20px 0;
+    }
+    .history h2 {
+        color: #e8491d;
+    }
+    .history p {
+        font-size: 17px;
+    }
+
+    .testimonial-container {
+      width: 80%;
+      margin: 30px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .testimonial {
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+  }
+  .testimonial img {
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+  }
+  .testimonial h3 {
+      font-size: 1.2em;
+      margin-top: 10px;
+  }
+  .testimonial p {
+      font-style: italic;
+  }
+  .testimonial::after {
+      content: '';
+      display: block;
+      margin: auto;
+      height: 2px;
+      width: 60px;
+      background: #e8491d;
+      margin-top: 20px;
+  }
+
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Arial', sans-serif;
+}
+.footer a {
+    color: #50b3a2;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer p {
+    margin: 0;
+    padding: 0;
+}
+.G{
+  background-color: lavender;
+}
+.f{
+  font-weight: 500;
+  font-size: 20px;
+  text-align: center;
+}
+.o{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+.round-img {
+  width: 50px; /* or any size you want */
+  height: 50px; /* must be the same as width to be round */
+  border-radius: 50%;
+  display: inline-block; /* Allows margin auto to work for horizontal centering */
+            margin-top: -12px; /* Adjust as needed for vertical spacing */
+            margin-left: 181px; /* Adjust as needed for vertical spacing */
+}
